@@ -1,0 +1,47 @@
+
+
+.paragraph{
+    text-align: justify;
+}
+
+#about{
+    background: url(../img/stage.jpg);
+    background-size: cover;
+    background-position: center -110px;
+    height: 75vh;
+ }
+ .card-fondo{
+     background-color: rgba(5, 5, 5, 0.5);
+     width: 100%;
+     max-width: 450px;
+     height: 360px;
+     padding: 1rem;
+     margin:2rem 5rem;
+ }
+
+.social{
+    padding: 10px;
+    color: white;
+}
+
+@media (max-width: 538px){
+    .card{
+        margin: auto;
+    }
+
+    #about{
+        background-position: center;
+        height: 80vh;
+    }
+
+    .card-fondo{
+        margin-left: 1px;
+    }
+  
+}
+
+
+
+
+  
+
